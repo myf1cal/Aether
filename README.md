@@ -44,6 +44,6 @@ If you prefer to run the project via the Python interpreter or modify the source
 
    pip install -r requirements.txt
 
-Run the application:
+2. Run the application:
 
    python Aether.py
