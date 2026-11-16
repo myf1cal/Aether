@@ -12,10 +12,7 @@
 </div>
 
 
-![GitHub release](https://img.shields.io/github/v/release/myf1cal/Aether?color=6366f1&include_prereleases&style=flat-square)
-![License](https://img.shields.io/github/license/myf1cal/Aether?color=34d399&style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.10%2B-38bdf8?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Windows%2011%2F10-71717a?style=flat-square)
+
 
 </div>
 
