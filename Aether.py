@@ -1,4 +1,11 @@
+import sys
 
+if sys.platform == "win32":
+    try:
+        import ctypes
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myf1cal.Aether.Monitor.1.0")
+    except Exception:
+        pass
 import os
 import sys
 import tempfile
