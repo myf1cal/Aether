@@ -57,8 +57,10 @@ python Aether.py
 
 ## 📥 Building from Source (.exe)
 To bundle the application into a single standalone executable using PyInstaller
+
 python -m pip install pyinstaller
 python -m PyInstaller --noconsole --onefile --name "Aether" --icon="aether.ico" --collect-all customtkinter Aether.py
+
 The compiled file will be located in the dist/Aether.exe directory 
 
 
