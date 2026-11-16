@@ -11,11 +11,6 @@
 
 </div>
 
-
-
-
-</div>
-
 ---
 
 # Aether — PC Monitor & Benchmark
@@ -49,10 +44,24 @@ If you prefer to run the project via the Python interpreter or modify the source
    git clone [https://github.com/myf1cal/Aether.git](https://github.com/myf1cal/Aether.git)
    cd Aether
 
-   Install the required dependencies:
+1. Install the required dependencies:
+pip install -r requirements.txt
 
-   pip install -r requirements.txt
+
 
 2. Run the application:
+python Aether.py 
 
-   python Aether.py
+
+
+
+## 📥 Building from Source (.exe)
+To bundle the application into a single standalone executable using PyInstaller
+python -m pip install pyinstaller
+python -m PyInstaller --noconsole --onefile --name "Aether" --icon="aether.ico" --collect-all customtkinter Aether.py
+The compiled file will be located in the dist/Aether.exe directory 
+
+
+
+## 📄 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute it.
